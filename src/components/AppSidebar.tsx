@@ -1,7 +1,7 @@
 import { 
   LayoutDashboard, Users, Clock, Calendar, DollarSign, 
   Briefcase, TrendingUp, Receipt, FolderKanban, GraduationCap,
-  Package, LogOut, Settings, Bell, ChevronRight
+  Package, LogOut, Settings, Bell, ChevronRight, BarChart3
 } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { useLocation } from "react-router-dom";
@@ -30,6 +30,8 @@ const menuItems = [
   { title: "Projects", url: "/projects", icon: FolderKanban },
   { title: "Training", url: "/training", icon: GraduationCap },
   { title: "Assets", url: "/assets", icon: Package },
+  { title: "Exit Management", url: "/exit-management", icon: LogOut },
+  { title: "Reports", url: "/reports", icon: BarChart3 },
   { title: "Settings", url: "/settings", icon: Settings },
 ];
 
